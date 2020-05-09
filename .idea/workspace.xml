@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="756959ad-dce9-49fa-a94c-4e18959e71ea" name="默认更改列表" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DockerExecCommand">
+    <ExecCommand>
+      <option name="command" value="swoole" />
+      <option name="imageId" value="twosee/swoole-coroutine" />
+    </ExecCommand>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="twosee/swoole-coroutine:latest" />
+  <component name="ProjectId" id="1aKoFnxrmCqkY5g0njALewVucl0" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../phpEnv/www/carzuxindao" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\swoole\php-docker\conf" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="PHP Script.server.php">
+    <configuration name="mi.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/mi.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="server.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/app/server.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="Docker Image" type="docker-deploy" factoryName="docker-image" server-name="Docker">
+      <deployment type="docker-image">
+        <settings>
+          <option name="command" value="" />
+          <option name="containerName" value="myswoole" />
+          <option name="entrypoint" value="" />
+          <option name="imageTag" value="twosee/swoole-coroutine" />
+          <option name="portBindings">
+            <list>
+              <DockerPortBindingImpl>
+                <option name="containerPort" value="9501" />
+                <option name="hostIp" value="0.0.0.0" />
+                <option name="hostPort" value="9501" />
+              </DockerPortBindingImpl>
+            </list>
+          </option>
+          <option name="commandLineOptions" value="" />
+          <option name="volumeBindings">
+            <list>
+              <DockerVolumeBindingImpl>
+                <option name="containerPath" value="/app" />
+                <option name="hostPath" value="/share/swoole" />
+              </DockerVolumeBindingImpl>
+            </list>
+          </option>
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker4">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker2">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="php-docker: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker4">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="php-docker/docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Docker.Docker Image" />
+      <item itemvalue="Docker.Dockerfile" />
+      <item itemvalue="Docker.php-docker: Compose Deployment" />
+      <item itemvalue="Docker.docker: Compose Deployment" />
+      <item itemvalue="PHP Script.mi.php" />
+      <item itemvalue="PHP Script.server.php" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.docker: Compose Deployment" />
+        <item itemvalue="Docker.docker: Compose Deployment" />
+        <item itemvalue="Docker.docker: Compose Deployment" />
+        <item itemvalue="Docker.php-docker: Compose Deployment" />
+        <item itemvalue="Docker.Dockerfile" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <option name="contentProportion" value="0.2990249" />
+        <treeState>
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@75cb5f80" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+          </expand>
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="756959ad-dce9-49fa-a94c-4e18959e71ea" name="默认更改列表" comment="" />
+      <created>1586493544523</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586493544523</updated>
+      <workItem from="1586493545809" duration="2297000" />
+      <workItem from="1586501923175" duration="2882000" />
+      <workItem from="1586507403186" duration="3875000" />
+      <workItem from="1586511298328" duration="1461000" />
+      <workItem from="1586654164402" duration="4003000" />
+      <workItem from="1586659567074" duration="35000" />
+      <workItem from="1586659619396" duration="597000" />
+      <workItem from="1586660230155" duration="925000" />
+      <workItem from="1586661594327" duration="725000" />
+      <workItem from="1586663050417" duration="9970000" />
+      <workItem from="1586678000757" duration="12519000" />
+      <workItem from="1586826799214" duration="1108000" />
+      <workItem from="1586827944819" duration="9158000" />
+      <workItem from="1586913213889" duration="8846000" />
+      <workItem from="1586931353240" duration="3571000" />
+      <workItem from="1586998627206" duration="3388000" />
+      <workItem from="1587004070838" duration="1407000" />
+      <workItem from="1587005903958" duration="210000" />
+      <workItem from="1587173019574" duration="6504000" />
+      <workItem from="1587190693061" duration="8766000" />
+      <workItem from="1587258600208" duration="15378000" />
+      <workItem from="1587344874580" duration="11807000" />
+      <workItem from="1587430996594" duration="16188000" />
+      <workItem from="1587517275782" duration="3840000" />
+      <workItem from="1587532731238" duration="530000" />
+      <workItem from="1587535889918" duration="1070000" />
+      <workItem from="1587537326882" duration="2857000" />
+      <workItem from="1587544711798" duration="38000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

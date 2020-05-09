@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteMappingsManager">
+    <list>
+      <list>
+        <remote-mappings server-id="php@bb7bf753-c242-4e98-bc4c-7f94ff8bd5a6">
+          <settings>
+            <list>
+              <mapping local-root="$PROJECT_DIR$" remote-root="/swoole" />
+            </list>
+          </settings>
+        </remote-mappings>
+      </list>
+    </list>
+  </component>
+</project>

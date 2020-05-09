@@ -1,0 +1,17 @@
+version: '2'
+services:
+  nginx:
+    image: nginx:latest
+    ports:
+      - "8060:80"
+      - "443:443"
+    volumes:
+      - ./:/var/www
+      - ./conf:
+    depends_on:
+      - php
+    container_name:  php-nginx-me
+  php:
+    build:
+      context: ./
+      dockerfile: app.dockerfile
