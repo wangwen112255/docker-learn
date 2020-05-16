@@ -1,0 +1,24 @@
+version: "3"
+services:
+  easyswoole:
+    build:
+      context: ./docker
+      args:
+        SWOOLE_VERSION: ${SWOOLE_VERSION}
+        EASYSWOOLE_VERSION: ${EASYSWOOLE_VERSION}
+    container_name: myeasyswoole
+    ports:
+      - "${HTTP_PORT}:9501"
+      - "${WEBSOCKER_PORT}:9502"
+      - "${TCP_PORT}:9503"
+      - "${UDP_POR}:9504"
+    volumes:
+      - ${SOURCE_DIR}:/easyswoole
+    command:
+      - /usr/sbin/init
+    restart: always
+    networks:
+      - default
+
+networks:
+  default:

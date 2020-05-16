@@ -2,10 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="756959ad-dce9-49fa-a94c-4e18959e71ea" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/mi.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easyswoole-docker/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easyswoole-docker/www/easyswoole/i.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php-docker-settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php-docker-settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/server.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/server.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/App/HttpController/Api/Admin/AdminBase.php" beforeDir="false" afterPath="$PROJECT_DIR$/demo/App/HttpController/Api/Admin/AdminBase.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/App/HttpController/Api/Common/Banner.php" beforeDir="false" afterPath="$PROJECT_DIR$/demo/App/HttpController/Api/Common/Banner.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/EasySwooleEvent.php" beforeDir="false" afterPath="$PROJECT_DIR$/demo/EasySwooleEvent.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/demo/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/dev.php" beforeDir="false" afterPath="$PROJECT_DIR$/demo/dev.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/produce.php" beforeDir="false" afterPath="$PROJECT_DIR$/demo/produce.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/mi.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/easyswoole-docker/www/easyswoole/App/HttpController/Api/Admin/AdminBase.php" beforeDir="false" afterPath="$PROJECT_DIR$/easyswoole-docker/www/easyswoole/App/HttpController/Api/Admin/AdminBase.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easyswoole-docker/www/easyswoole/App/HttpController/Api/Common/Banner.php" beforeDir="false" afterPath="$PROJECT_DIR$/easyswoole-docker/www/easyswoole/App/HttpController/Api/Common/Banner.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easyswoole-docker/www/easyswoole/EasySwooleEvent.php" beforeDir="false" afterPath="$PROJECT_DIR$/easyswoole-docker/www/easyswoole/EasySwooleEvent.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easyswoole-docker/www/easyswoole/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/easyswoole-docker/www/easyswoole/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easyswoole-docker/www/easyswoole/dev.php" beforeDir="false" afterPath="$PROJECT_DIR$/easyswoole-docker/www/easyswoole/dev.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easyswoole-docker/www/easyswoole/produce.php" beforeDir="false" afterPath="$PROJECT_DIR$/easyswoole-docker/www/easyswoole/produce.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mi.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,15 +33,32 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="DONT_SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
-      <executable />
+      <executable path="composer" />
     </execution>
   </component>
   <component name="DockerExecCommand">
     <ExecCommand>
+      <option name="command" value="ls" />
+      <option name="imageId" value="easyswoole" />
+    </ExecCommand>
+    <ExecCommand>
+      <option name="command" value="php easyswoole start" />
+      <option name="imageId" value="easyswoole_easyswoole" />
+    </ExecCommand>
+    <ExecCommand>
       <option name="command" value="swoole" />
       <option name="imageId" value="twosee/swoole-coroutine" />
+    </ExecCommand>
+    <ExecCommand>
+      <option name="command" value="docker exec -it /bin/bash" />
+      <option name="imageId" value="sha256:d71166ef543b94c2bd907f1c074bd7553ee79d39fedde2af3e12626241807992" />
+    </ExecCommand>
+    <ExecCommand>
+      <option name="command" value="php easyswoole start" />
+      <option name="imageId" value="easyswoole-docker_easyswoole" />
     </ExecCommand>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -42,20 +79,30 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="twosee/swoole-coroutine:latest" />
   <component name="ProjectId" id="1aKoFnxrmCqkY5g0njALewVucl0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/easyswoole" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="settings.editor.selected.configurable" value="Docker" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\swoole\easyswoole" />
       <recent name="D:\swoole\php-docker\conf" />
     </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="[docker://twosee/swoole-coroutine:latest/]:php" />
+      <command value="[docker://twosee/swoole-coroutine:latest/]:php /swoole/app/server.php" />
+    </option>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -69,7 +116,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHP Script.server.php">
+  <component name="RunManager" selected="Docker.easyswoole-docker: Compose Deployment">
+    <configuration name="dev.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/easyswoole/dev.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/easyswoole/index.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="mi.php (1)" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/app/mi.php">
+      <method v="2" />
+    </configuration>
     <configuration name="mi.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/mi.php">
       <method v="2" />
     </configuration>
@@ -105,45 +161,44 @@
       </deployment>
       <method v="2" />
     </configuration>
-    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker4">
-      <deployment type="dockerfile">
+    <configuration name="easyswoole-docker: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
         <settings>
-          <option name="sourceFilePath" value="Dockerfile" />
+          <option name="sourceFilePath" value="easyswoole-docker/docker-compose.yml" />
         </settings>
       </deployment>
       <method v="2" />
     </configuration>
-    <configuration name="docker: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker4">
+    <configuration name="easyswoole-docker.easyswoole: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker4">
       <deployment type="docker-compose.yml">
         <settings>
-          <option name="sourceFilePath" value="docker/docker-compose.yml" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
-    <configuration name="php-docker: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker4">
-      <deployment type="docker-compose.yml">
-        <settings>
-          <option name="sourceFilePath" value="php-docker/docker-compose.yml" />
+          <option name="services">
+            <list>
+              <option value="easyswoole" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="easyswoole-docker/docker-compose.yml" />
         </settings>
       </deployment>
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Docker.Docker Image" />
-      <item itemvalue="Docker.Dockerfile" />
-      <item itemvalue="Docker.php-docker: Compose Deployment" />
-      <item itemvalue="Docker.docker: Compose Deployment" />
+      <item itemvalue="Docker.easyswoole-docker: Compose Deployment" />
+      <item itemvalue="Docker.easyswoole-docker.easyswoole: Compose Deployment" />
       <item itemvalue="PHP Script.mi.php" />
       <item itemvalue="PHP Script.server.php" />
+      <item itemvalue="PHP Script.index.php" />
+      <item itemvalue="PHP Script.mi.php (1)" />
+      <item itemvalue="PHP Script.dev.php" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Docker.docker: Compose Deployment" />
-        <item itemvalue="Docker.docker: Compose Deployment" />
-        <item itemvalue="Docker.docker: Compose Deployment" />
-        <item itemvalue="Docker.docker: Compose Deployment" />
-        <item itemvalue="Docker.php-docker: Compose Deployment" />
+        <item itemvalue="Docker.easyswoole-docker: Compose Deployment" />
+        <item itemvalue="Docker.easyswoole-docker: Compose Deployment" />
+        <item itemvalue="Docker.easyswoole-docker.easyswoole: Compose Deployment" />
+        <item itemvalue="Docker.easyswoole-docker: Compose Deployment" />
+        <item itemvalue="Docker.easyswoole-docker: Compose Deployment" />
       </list>
     </recent_temporary>
   </component>
@@ -155,13 +210,29 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@3a06a3c0" type="9fbbdea:ServiceModel$ServiceNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@2837add7" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@2837add7" type="9fbbdea:ServiceModel$ServiceNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@656dfe49" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@2837add7" type="9fbbdea:ServiceModel$ServiceNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@656dfe49" type="9fbbdea:ServiceModel$ServiceNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@569f89bd" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
           </expand>
           <select />
         </treeState>
       </serviceView>
     </option>
+  </component>
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="GBK" />
+    <option name="myConnectionType" value="DEFAULT_SDK" />
+    <option name="myConnectionId" value="" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -201,7 +272,12 @@
       <workItem from="1587535889918" duration="1070000" />
       <workItem from="1587537326882" duration="2857000" />
       <workItem from="1587544711798" duration="38000" />
-      <workItem from="1589254912297" duration="254000" />
+      <workItem from="1589254912297" duration="624000" />
+      <workItem from="1589436747096" duration="13413000" />
+      <workItem from="1589450666841" duration="150000" />
+      <workItem from="1589505142529" duration="10679000" />
+      <workItem from="1589525261630" duration="4965000" />
+      <workItem from="1589591414900" duration="3093000" />
     </task>
     <servers />
   </component>
@@ -213,7 +289,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
